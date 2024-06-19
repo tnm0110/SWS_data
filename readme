@@ -1,10 +1,16 @@
 # This repository contains shear wave splitting datasets that we used in the article titled 'Mantle Deformation in the Highly Oblique Indo-Burma Subduction System Inferred from Shear Wave Splitting Measurements.'
 # 
-# waveforms folder contains all the windowed waveforms used in this study. Datasets are organized by the seismic networks. Inside the tar file, all waveforms are located.
-# naming convention used as : YYYYJDD_STAN_HH_MM.1.sac  ==> vertical 
-#                           : YYYYJDD_STAN_HH_MM.2.sac  ==> N-S
-                            : YYYYJDD_STAN_HH_MM.3.sac  ==> E-W
-# 
+# "waveforms" folder contains all the windowed waveforms used in this study. Datasets are organized by the seismic networks. Inside the ".tar" file, all the SAC files are located.
+# naming convention used as : YYYYJDD_STAN_HH_MM.1.sac  ==> Vertical (Z)
+#                           : YYYYJDD_STAN_HH_MM.2.sac  ==> Horizontal (N-S)
+                            : YYYYJDD_STAN_HH_MM.3.sac  ==> Horizontal (E-W)
+# "analized" folder contains time-shifted seismograms that produced optimal splitting parameters. Fast direction (fd) and lag time (dt) information are saved in the sac header [ user1 ==> fd, user2 ==> dt, user3 ==> efd, use4 ==> edt]. 
+# Inside the ".tar" file, all the processed seismograms are located.
+
+# naming convention used as : YYYYJDD_STAN_HH_MM.f.phase  ==> fast polarized seismogram (Z)
+#                           : YYYYJDD_STAN_HH_MM.s.phase  ==> slow polarized seismogram (N-S)
+                            : YYYYJDD_STAN_HH_MM.c.phase  ==> corrected seismogram by time shifting
+
 # results folder contains all the statin average, individual, and null shear wave splitting results found in this study 
 
 #
