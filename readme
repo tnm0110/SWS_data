@@ -1,9 +1,16 @@
 # This repository contains shear wave splitting datasets that we used in the article titled 'Mantle Deformation in the Highly Oblique Indo-Burma Subduction System Inferred from Shear Wave Splitting Measurements.'
-# The datasets are organized by networks. 
 # 
-# Please cite if you use this data in your study. 
-# Please feel free to contact if you need additional information.
+# waveforms folder contains all the windowed waveforms used in this study. Datasets are organized by the seismic networks. Inside the tar file, all waveforms are located.
+# naming convention used as : YYYYJDD_STAN_HH_MM.1.sac  ==> vertical 
+#                           : YYYYJDD_STAN_HH_MM.2.sac  ==> N-S
+                            : YYYYJDD_STAN_HH_MM.3.sac  ==> E-W
+# 
+# results folder contains all the statin average, individual, and null shear wave splitting results found in this study 
 
+#
+# Please cite if you use this data in your study. 
+
+# Please feel free to contact if you need additional information.
 # Md Mohimanul Islam, University of Missouri Columbia
 # last modified on Aril 10, 2024
 # email: mibhk@umsystem.edu
