@@ -1,4 +1,4 @@
-# This folder contains all the shear wave splitting results found in this study
+# This folder contains all the shear wave splitting results from this study.
 # 
 # "avg_split" file contains the station average shear wave splitting results
 # "ind_split" file contains all good quality (Q1 and Q2) individual results. 
