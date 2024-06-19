@@ -1,4 +1,4 @@
-Station	Lat	Lon	FD	edf	dt	edt	N
+Station	Lat	Lon	fd	efd	dt	edt	N
 MP01	23.351	93.572	-3.2	5.6	2.30	0.28	5
 MP02	23.298	93.641	-3.7	7.8	2.50	0.33	6
 MP03	23.236	93.728	2.0	5.0	1.70	0.40	3
