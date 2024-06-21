@@ -2,4 +2,4 @@
 # 
 # "avg_split" file contains the station average shear wave splitting results
 # "ind_split" file contains all good quality (Q1 and Q2) individual results. 
-# "ind_nulls" contains all individual null results found in this study.
+# "ind_nulls_bd" contains all individual null results found in this study.
