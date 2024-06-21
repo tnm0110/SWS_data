@@ -1,11 +1,11 @@
 # This repository contains shear wave splitting datasets that we used in the article titled 'Mantle Deformation in the Highly Oblique Indo-Burma Subduction System Inferred from Shear Wave Splitting Measurements.'
-#  Please cite if you use this data in your study.
+#  Please cite the article if you use this data in your study.
 
 # "waveforms" folder contains all the windowed waveforms used in this study. Datasets are organized by the seismic networks. Inside the ".tar" file, all the SAC files are located.
 # naming convention used as : YYYYJDD_STAN_HH_MM_phase.1.sac  ==> Vertical (Z)
 #                           : YYYYJDD_STAN_HH_MM_phase.2.sac  ==> Horizontal (N-S)
                             : YYYYJDD_STAN_HH_MM_phase.3.sac  ==> Horizontal (E-W)
-# "processed" folder contains time-shifted seismograms that produced optimal splitting parameters. Fast direction (fd) and lag time (dt) information are saved in the sac header [ user1 ==> fd, user2 ==> dt, user3 ==> efd, use4 ==> edt]. 
+# "processed" folder contains time-shifted seismograms that produced optimal splitting parameters. Datasets are organized by the seismic networks. Fast direction (fd) and lag time (dt) information are saved in the sac header [ user1 ==> fd, user2 ==> dt, user3 ==> efd, use4 ==> edt].
 # Inside the ".tar" file, all the processed seismograms are located.
 
 # naming convention used as : YYYYJDD_STAN_HH_MM.f.phase  ==> fast polarized seismogram (Z)
@@ -14,9 +14,8 @@
 
 # results folder contains all the statin average, individual, and null shear wave splitting results found in this study 
 
-#
- 
+
 # Please feel free to contact if you need additional information.
 # Md Mohimanul Islam, University of Missouri Columbia
-# last modified on Aril 10, 2024
 # email: mibhk@umsystem.edu
+# last modified on 06/20/2024
