@@ -11,7 +11,7 @@
 
 # naming convention used as : YYYYJDD_STAN_HH_MM.f.phase  ==> fast polarized seismogram (Z)
 #                           : YYYYJDD_STAN_HH_MM.s.phase  ==> slow polarized seismogram (N-S)
-#                            : YYYYJDD_STAN_HH_MM.c.phase  ==> corrected seismogram by time shifting
+#                           : YYYYJDD_STAN_HH_MM.c.phase  ==> corrected seismogram by time shifting
 
 # results folder contains all the statin average, individual, and null shear wave splitting results found in this study 
 
